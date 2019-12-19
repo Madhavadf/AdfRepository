@@ -1,0 +1,17 @@
+{
+	"name": "DimDepartment",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Azure_Destination",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "DimDepartment"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
